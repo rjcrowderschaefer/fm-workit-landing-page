@@ -1,8 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600&family=Manrope:wght@400;700&display=swap');
+
+
 *,
 *::before,
 *::after {
   box-sizing: border-box;
-  font-family: "Overpass";
+  font-family: "Fraunces", serif;
 }
 
 * {
@@ -47,6 +50,38 @@ a {
   outline: none;
 }
 
-nav {
+.header-container {
     background-color: #24053E;
+    width: 100%;
+    height: 481.71px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    font-family: "Manrope", sans-serif;
+    font-size: 1.6rem;
+}
+
+nav svg {
+    display: inline;
+    width: 95.76px;
+    height: 24.61px;
+}
+
+.apply-access {
+    display: inline;
+    color: #ffffff;
+    margin-left: auto;
+    font-family: "Manrope", sans-serif;
+    font-weight: 400;
+    /* text-decoration: underline; */
+}
+
+.h1-hero {
+    font-family: "Fraunces", sans-serif;
+    font-size: 5rem;
+    font-weight: 600;
+    color: #ffffff;
 }
