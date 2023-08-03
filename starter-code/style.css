@@ -50,6 +50,13 @@ a {
   outline: none;
 }
 
+body { 
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px
+}
+
 .header-container {
     background-color: #24053E;
     width: 100%;
@@ -76,7 +83,6 @@ nav svg {
     margin-left: auto;
     font-family: "Manrope", sans-serif;
     font-weight: 400;
-    /* text-decoration: underline; */
 }
 
 .h1-hero {
