@@ -1,4 +1,4 @@
-  @import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Manrope:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Manrope:wght@400;700&display=swap');
 
 
 
@@ -17,7 +17,7 @@ html {
   -webkit-text-size-adjust: none;
   text-size-adjust: none;
   scroll-behavior: smooth;
-  /* background-color: #ffffff; */
+  background-color: #ffffff;
 }
 
 img {
@@ -144,6 +144,11 @@ header button {
   text-align: center;
   background-color: #FCF8FF;
   padding-top: 115px;
+  color: #24053E;
+  border-bottom-left-radius: 100% 50px;
+  border-bottom-right-radius: 100% 50px;
+  box-shadow: 0px 5px 5px .5px #979797;
+
 }
 
 .insights-num {
@@ -157,7 +162,19 @@ header button {
   border-radius: 50%;
   width: 48px;
   height: 46px;
-  margin-right: auto;
-  margin-left: auto;
-  margin-top: 25px;
+  margin: 25px auto 0px auto;
+}
+
+.insights-header {
+  font-family: "Fraunces", serif;
+  font-size: 2.8rem;
+  display: block;
+  margin: 15px 0 18px 0;
+}
+
+.insights-description {
+  font-family: "Manrope", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 400;
+  margin: 0 15px 15px 15px;
 }
