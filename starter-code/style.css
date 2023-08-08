@@ -189,10 +189,6 @@ aside {
   align-items: center;
   position: relative;
   margin-top: 225px;
-  /* width: 343px;
-  height: 375px; */
-  /* background-color: #24053E;
-  color: #ffffff; */
 }
 
 .owner-image {
@@ -262,6 +258,14 @@ footer {
   display: none;
 }
 
+.right-spiral {
+  display: none;
+}
+
+.left-spiral {
+  display: none;
+}
+
 /* Tablet Sizing */
 
 @media only screen and (min-width: 768px) {
@@ -280,6 +284,7 @@ footer {
 
   .header-container {
     position: relative;
+    height: 540.24px;
   }
 
   .svg-container {
@@ -289,6 +294,10 @@ footer {
     width: 100%;
     height: 100%;
     overflow: hidden;
+  }
+
+  .apply-access {
+    font-size: 1.6rem;
   }
 
   .h1-hero {
@@ -332,6 +341,71 @@ footer {
     position: absolute;
     top: 75px;
     right: 650px;
+  }
+
+  .insights-container {
+    display: block;
+    box-shadow: none;
+  }
+
+  .insights-block {
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+
+  .insights-header {
+    text-align: left;
+    margin-bottom: 15px;
+  }
+
+  .insights-description {
+    text-align: left;
+    padding-left: 60px;
+    padding-bottom: 40px
+  }
+
+  .insights-detail {
+    line-height: 2.8rem;
+  }
+
+  .insights-num {
+    float: left;
+    margin-top: 40px;
+  }
+
+  aside, .tester-container {
+    display: block;
+  }
+
+  .tester-text-container {
+    width: 514px;
+    height: 375px;
+  }
+
+  .tester-header {
+    text-align: left;
+    margin-left: 50px;
+    font-size: 4rem;
+  }
+
+  .tester-description {
+    text-align: left;
+    padding-left: 20px;
+    padding-right: 30px;
+    font-size: 1.6rem;
+    line-height: 2.8rem;
+    font-weight: 400;
+    margin-top: 20px
+  }
+
+  .tester-text-container button {
+    margin-left: 50px;
+    margin-top: 25px;
+  }
+
+  .owner-image {
+    margin-right: 0;
+    margin-left: 0;
   }
 
 }
