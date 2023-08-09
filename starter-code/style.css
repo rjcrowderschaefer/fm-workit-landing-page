@@ -97,11 +97,14 @@ nav svg {
     padding-bottom: 4px;
 }
 
+.apply-access:hover {
+  color: #44FFA1
+}
+
 .h1-hero {
     font-family: "Fraunces", sans-serif;
     font-size: 4.59rem;
     font-weight: 500;
-    /* font-style: semibold; */
     color: #ffffff;
     padding-left: 32px;
     padding-right: 32px;
@@ -112,17 +115,22 @@ nav svg {
 
 .grn-underline {
   display: inline;
-  /* padding-bottom: 5px; */
-    border-bottom: .2rem solid #44FFA1;
+  border-bottom: .2rem solid #44FFA1;
 }
 
- button {
+button {
   background-color: #44FFA1;
   font-style: "Manrope", serif;
   font-weight: 700;
   font-size: 1.6rem;
   margin: 35px auto 55px auto;
   padding: 18px 23px;
+}
+
+button:hover {
+  background-color: #24053E;
+  border: 1px solid #44FFA1;
+  color: #44FFA1;
 }
 
 .hero-image {
@@ -256,11 +264,11 @@ footer {
   display: none;
 }
 
-.right-spiral {
+.left-spiral {
   display: none;
 }
 
-.left-spiral {
+.bottom-spiral {
   display: none;
 }
 
