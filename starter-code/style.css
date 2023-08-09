@@ -378,6 +378,7 @@ footer {
   }
 
   .tester-text-container {
+    margin-left: 210px;
     width: 514px;
     height: 375px;
   }
@@ -405,7 +406,17 @@ footer {
 
   .owner-image {
     margin-right: 0;
-    margin-left: 0;
+    margin-left: 40px;
+    margin-top: 70px;
+  }
+
+  .bottom-spiral {
+    display: inline;
+    position: absolute;
+    width: 220px;
+    height: 180px;
+    left: 510px;
+    top: 280px;
   }
 
 }
