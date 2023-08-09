@@ -115,15 +115,13 @@ nav svg {
   /* padding-bottom: 5px; */
     border-bottom: .2rem solid #44FFA1;
 }
+
  button {
   background-color: #44FFA1;
   font-style: "Manrope", serif;
   font-weight: 700;
   font-size: 1.6rem;
-  margin-top: 35px;
-  margin-bottom: 55px;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 35px auto 55px auto;
   padding: 18px 23px;
 }
 
@@ -231,7 +229,7 @@ aside {
 footer {
   display: flex;
   align-items: center;
-  flex-direction: column;;
+  flex-direction: column;
   height: 210px;
 }
 
@@ -419,4 +417,136 @@ footer {
     top: 280px;
   }
 
+}
+
+/* Desktop Sizing */
+
+@media only screen and (min-width: 1440px) {
+
+  body {
+    max-width: 1440px;
+  }
+
+  .header-container {
+    height: 730px;
+    border-bottom-left-radius: 100% 140px;
+    border-bottom-right-radius: 100% 140px;
+  }
+
+  nav {
+    padding: 60px 120px 0px 120px;
+  }
+
+  .apply-access {
+    font-size: 1.8rem;
+  }  
+
+  .h1-hero {
+    font-size: 8.0rem;
+    margin-left: 250px;
+    margin-right: 250px;
+    line-height: 7.5rem;
+  }
+
+  button {
+    padding: 20px 25px;
+    font-size: 1.8rem;
+  }
+
+  .right-spiral {
+    top: 300px;
+    left: 1280px;
+  }
+
+  .left-spiral {
+    right: 1225px;
+    top: 125px;
+    width: 320.29px;
+    height: 265.1px;
+  }
+
+  .hero-image {
+    width: 767px;
+    height: 441px;
+  }
+
+  .insights-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 2%;
+    padding: 275px 160px 160px 150px;
+    border-bottom-left-radius: 100% 140px;
+  border-bottom-right-radius: 100% 140px;
+  }
+
+  .insights-num {
+    float: none;
+  }
+
+  .insights-description, .insights-header, .insights-num {
+    text-align: center;
+    margin: 0 0;
+    padding: 0 0;
+  }
+
+  .insights-num {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    font-size: 2.4rem;
+  }
+
+  .insights-header {
+    margin-bottom: 30px;
+    font-size: 3.2rem;
+  }
+
+  .insights-detail {
+    font-size: 1.8rem;
+  }
+
+  .insights-block {
+    margin: 0 0;
+  }
+
+  .owner-image {
+    width: 477px;
+    height: 477px;
+    margin-left: 165px;
+    margin-top: 50px;
+  }
+
+  .tester-text-container {
+    width: 730px;
+    height: 413px;
+    margin-left: 550px;
+    margin-top: 300px;
+    padding-top: 25px;
+  }
+
+  .tester-header {
+    font-size: 5.6rem;
+  }
+
+  .tester-description {
+    font-size: 1.8rem;
+    line-height: 3.2rem;
+    margin: 10px 50px 10px 30px;
+  }
+
+  .bottom-spiral {
+    margin-left: 500px;
+    margin-top: 10px
+  }
+
+  footer {
+    height: 300px;
+    justify-content: center;
+  }
+
+  .footer-logo {
+    margin-top: 0px;
+    margin-bottom: 50px;
+  }
+  
 }
